@@ -26,7 +26,7 @@ funcionConConstructor.funcionConconstructor()
 class FuncionConConstructorYArgumentos:
 
     def __init__(self, argumento1, argumento2, argumento3):
-        self.argumento1 = argumento1 #Declaramos aquí los ojbetos y sus argumentos.
+        self.argumento1 = argumento1 #Declaramos aquí los objetos y sus argumentos.
         self.argumento2 = argumento2
         self.argumento3 = argumento3
 
@@ -35,7 +35,7 @@ class FuncionConConstructorYArgumentos:
 
 funcionConConstructorYArgumentos = FuncionConConstructorYArgumentos("este es el argumento 1", "este es el argumento 2", "este es el argumento 3")
 funcionConConstructorYArgumentos.exponiendoArgumentos()
-funcionConConstructorYArgumentos.argumento1 = "Nuevo Argumento 1" #se peuden cambiar los datos, esto NO ES encapsulamiento ni son buenas practicas.
+funcionConConstructorYArgumentos.argumento1 = "Nuevo Argumento 1" #se pueden cambiar los datos, esto NO ES encapsulamiento ni son buenas practicas.
 funcionConConstructorYArgumentos.exponiendoArgumentos()
 
 #Clases con argumentos PRIVADOS, no se pueden modificar a no ser de que esté la modificación en el propio método.

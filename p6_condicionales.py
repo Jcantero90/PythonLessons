@@ -49,7 +49,7 @@ else:
 if valorElseIf1 == 0 and valorElseIf2 == 0:
     print("las dos validaciones son correctas")
 else:
-    print("ya se está liando")
+    print("las validaciones son incorrectas")
 
 if not valorElseIf1 == 0 or valorElseIf2 == 0:
     print("una de las dos es correcta")

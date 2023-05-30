@@ -13,9 +13,9 @@ holaMundo()
 # Función con variables
 
 def funcionVariables(variable):
-    print(f'El siguiente exto es una variable: {variable}') #Muy importnate ponter la f para concatenar
+    print(f'El siguiente texto es una variable: {variable}') #Muy importnate ponter la f para concatenar
 
-funcionVariables("esto es un argumento!")
+funcionVariables("esto es un argumento!") #
 
 def funcionConUnParametroPorDefecto (parametro1, parametro2 = 'Esto es un parametro por defecto' ): #Si parametro2 está vacio, se colocará por defecto la cadena de String,
     print(parametro1, parametro2)                                                                   #pero si parametro 2 lleva info, se pondrá la info de algumento de llamada.

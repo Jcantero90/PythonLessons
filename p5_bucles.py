@@ -1,4 +1,4 @@
-#Se hade diference, primero se crea una variable y luego se pone el iterador.
+#Se hace diference, primero se crea una variable y luego se pone el iterador.
 
 lista = ["uno", "dos", "tres", "cuatro", "cinco"]
 
